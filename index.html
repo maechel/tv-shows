@@ -7,7 +7,8 @@
 
     <script>
       var timer;
-      var divElement, paragraphElement;
+      var divElement;
+      var paragraphElement;
 
       var onLoadHandler = function() {
         clearTimeout(timer);
@@ -20,10 +21,17 @@
         createOfflineMessage();
       };
 
+      var onOnlineHandler = function() {
+        if (paragraphElement) {
+          divElement.removeChild(paragraphElement);
+        }
+      };
+
       var createSlowNetworkMessage = function() {
         paragraphElement = document.createElement('p');
         paragraphElement.innerText = 'Slow network detected. The page may take longer to load..';
         paragraphElement.style.color = 'gray';
+        paragraphElement.style.margin = '15px 0 0 20px';
 
         divElement = document.getElementById('network');
         divElement.appendChild(paragraphElement);
@@ -33,6 +41,7 @@
         paragraphElement = document.createElement('p');
         paragraphElement.innerText = 'No network detected. Check your network configuration.';
         paragraphElement.style.color = 'gray';
+        paragraphElement.style.margin = '15px 0 0 20px';
 
         divElement = document.getElementById('network');
         divElement.appendChild(paragraphElement);
@@ -44,10 +53,12 @@
 
       window.addEventListener('load', onLoadHandler);
       window.addEventListener('offline', onOfflineHandler);
+      window.addEventListener('online', onOnlineHandler);
 
       window.addEventListener('unload', function() {
         window.removeEventListener('load',onLoadHandler);
         window.removeEventListener('offline',onOfflineHandler);
+        window.removeEventListener('online',onOfflineHandler);
       });
     </script>
   </head>
