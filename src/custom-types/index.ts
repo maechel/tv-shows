@@ -59,3 +59,8 @@ export interface SpinnerProps {
     size?: 'sm' | 'normal' | 'lg';
     color?: 'primary' | 'secondary';
 }
+
+export interface ShowImageProps {
+    show: TvShowItem;
+    size: 'medium' | 'original';
+}

@@ -1,8 +1,8 @@
 import React from 'react';
 import { TvShow } from '../../custom-types';
 import { useNavigate } from 'react-router-dom';
+import { ShowImage } from '../';
 import './showlist.css';
-import { ImageSkeleton } from '../';
 
 const ShowsListItem: React.FC<TvShow> = ({ show, score }) => {
     const navigate = useNavigate();
@@ -18,9 +18,7 @@ const ShowsListItem: React.FC<TvShow> = ({ show, score }) => {
             onClick={onClickHandler(show.id)}
         >
             <div>
-                {show?.image?.medium ? (
-                    <img className="showslistitem-img" src={show.image.medium} alt={`Image of tv-show ${show.name}`}/>
-                ) : <ImageSkeleton size="medium" />}
+                <ShowImage show={show} size="medium" />
             </div>
             <span>{show.name}</span>
         </li>

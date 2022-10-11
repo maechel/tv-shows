@@ -1,0 +1,13 @@
+.show-image {
+    height: auto;
+    object-fit: cover;
+}
+
+.image-medium {
+    width: 60px;
+}
+
+.image-original {
+    width: 300px;
+}
+
