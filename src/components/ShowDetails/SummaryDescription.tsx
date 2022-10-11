@@ -1,10 +1,12 @@
 import React from 'react';
 import DOMPurify from 'dompurify';
-import { TvShowItem } from '../../custom-types';
+import { TvShow } from '../../custom-types';
 
-const SummaryDescription: React.FC<TvShowItem> = ({ summary }) => {
+const SummaryDescription: React.FC<TvShow> = (tvShow: TvShow) => {
+    const { show } = tvShow;
+
     const sanitizedData = () => ({
-        __html: DOMPurify.sanitize(summary),
+        __html: DOMPurify.sanitize(show.summary),
     });
 
     return <div className="summary-description" dangerouslySetInnerHTML={sanitizedData()}/>;

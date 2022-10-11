@@ -1,12 +1,13 @@
 import React from 'react';
-import { TvShowItem } from '../../custom-types';
+import { TvShow } from '../../custom-types';
 
-const SummaryDateAndTime: React.FC<TvShowItem> = ({ schedule, runtime }) => {
+const SummaryDateAndTime: React.FC<TvShow> = (tvShow: TvShow) => {
+    const { show } = tvShow;
     return (
         <div className="summary-container-card">
-            <p>Airs at: {schedule?.time ?? ' - '}</p>
-            <p>Days: {schedule?.days?.join(', ') ?? ' - '}</p>
-            <p>Runtime: {runtime ? ` ${runtime} mins` : ' - '}</p>
+            <p>Airs at: {show?.schedule?.time ?? ' - '}</p>
+            <p>Days: {show?.schedule?.days?.join(', ') ?? ' - '}</p>
+            <p>Runtime: {show?.runtime ? ` ${show.runtime} mins` : ' - '}</p>
         </div>
     );
 };

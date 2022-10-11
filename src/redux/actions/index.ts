@@ -1,5 +1,5 @@
 import { ActionType } from '../action-types';
-import { TvShow, TvShowItem } from '../../custom-types';
+import { TvShow } from '../../custom-types';
 
 export interface FetchAllStartAction {
     type: ActionType.FETCH_ALL_START;
@@ -21,11 +21,39 @@ export interface FetchShowStartAction {
 
 export interface FetchShowCompleteAction {
     type: ActionType.FETCH_SHOW_COMPLETE;
-    payload: TvShowItem;
+    payload: TvShow;
 }
 
 export interface FetchShowErrorAction {
     type: ActionType.FETCH_SHOW_ERROR,
+    payload: string;
+}
+
+export interface AddToFavoritesStartAction {
+    type: ActionType.ADD_TO_FAVORITES_START;
+}
+
+export interface AddToFavoritesCompleteAction {
+    type: ActionType.ADD_TO_FAVORITES_COMPLETE;
+    payload: TvShow | null;
+}
+
+export interface AddToFavoritesErrorAction {
+    type: ActionType.ADD_TO_FAVORITES_ERROR,
+    payload: string;
+}
+
+export interface RemoveFromFavoritesStartAction {
+    type: ActionType.REMOVE_FROM_FAVORITES_START;
+}
+
+export interface RemoveFromFavoritesCompleteAction {
+    type: ActionType.REMOVE_FROM_FAVORITES_COMPLETE;
+    payload: number;
+}
+
+export interface RemoveFromFavoritesErrorAction {
+    type: ActionType.REMOVE_FROM_FAVORITES_ERROR,
     payload: string;
 }
 
@@ -35,4 +63,10 @@ export type Action =
     | FetchAllErrorAction
     | FetchShowStartAction
     | FetchShowCompleteAction
-    | FetchShowErrorAction;
+    | FetchShowErrorAction
+    | AddToFavoritesStartAction
+    | AddToFavoritesCompleteAction
+    | AddToFavoritesErrorAction
+    | RemoveFromFavoritesStartAction
+    | RemoveFromFavoritesCompleteAction
+    | RemoveFromFavoritesErrorAction;

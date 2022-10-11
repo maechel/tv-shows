@@ -1,15 +1,20 @@
 import React from 'react';
-import { TvShowItem } from '../../custom-types';
+import { TvShow } from '../../custom-types';
 import { DetailsSummary, ShowImage } from '../../components';
 import './show-details.css';
+import { addShowToFavourites } from '../../redux/action-creators';
 
-const ShowDetails: React.FC<TvShowItem> = (props) => {
+const ShowDetails: React.FC<TvShow> = (tvShowItem: TvShow) => {
+    const onAddToFavouritesClickHandler = (tvShow: TvShow) => () => {
+        addShowToFavourites(tvShow);
+    };
+
     return (
         <div className="details-container">
             <div className="details-image">
-                <ShowImage show={props} size="original" />
+                <ShowImage show={tvShowItem.show} size="original" />
             </div>
-            <DetailsSummary {...props} />
+            <DetailsSummary {...tvShowItem} />
         </div>
     );
 };

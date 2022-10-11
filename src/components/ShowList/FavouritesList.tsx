@@ -1,11 +1,10 @@
 import React from 'react';
 import { useTypedSelector } from '../../hooks';
-import { TvShow } from '../../custom-types';
 import { ApplicationMessage, Spinner, ShowsListItem } from '../';
 import './showlist.css';
 
-const ShowsList: React.FC = () => {
-    const { shows, loading, error } = useTypedSelector(({ shows }) => shows);
+const FavouritesList: React.FC = () => {
+    const { favourites, loading, error } = useTypedSelector(({ shows }) => shows);
 
     if (error) {
         return <ApplicationMessage
@@ -20,17 +19,20 @@ const ShowsList: React.FC = () => {
     }
 
     const renderShows = () => {
-        if (Array.isArray(shows) && shows.length) {
-            return shows.map((showItem: TvShow) =>
-                <ShowsListItem key={showItem.show.id} {...showItem} />
-            );
-        } else if (Array.isArray(shows) && shows.length === 0) {
+        if (Array.isArray(favourites) && favourites.length) {
+            return favourites.map(({ show, score }) => {
+                return (
+                    <ShowsListItem key={show.id} show={show} score={score} />
+                );
+            });
+        } else if (Array.isArray(favourites) && favourites.length === 0) {
             return <ApplicationMessage
                 type="info"
-                msg="Sorry! The search came back empty. Try with another search term."
+                msg="Nothing to see yet! Go back and add a tv-show to the list."
                 title="Information"
             />;
         }
+
         return null;
     }
 
@@ -43,4 +45,4 @@ const ShowsList: React.FC = () => {
     );
 };
 
-export default ShowsList;
+export default FavouritesList;

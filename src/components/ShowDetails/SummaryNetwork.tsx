@@ -1,11 +1,12 @@
 import React from 'react';
-import { TvShowItem } from '../../custom-types';
+import { TvShow } from '../../custom-types';
 
-const SummaryNetwork: React.FC<TvShowItem> = ({ premiered, network }) => {
+const SummaryNetwork: React.FC<TvShow> = (tvShowItem: TvShow) => {
+    const { show } = tvShowItem;
     return (
         <div className="summary-container-card">
-            <p>Premiered: {premiered ?? ' - '}</p>
-            <p>Network: {network?.name ?? ' - '}</p>
+            <p>Premiered: {show?.premiered ?? ' - '}</p>
+            <p>Network: {show?.network?.name ?? ' - '}</p>
         </div>
     );
 };

@@ -1,10 +1,11 @@
 import React from 'react';
-import { TvShowItem } from '../../custom-types';
+import { TvShow } from '../../custom-types';
 
-const SummaryRating: React.FC<TvShowItem> = ({ rating }) => {
+const SummaryRating: React.FC<TvShow> = (tvShowItem: TvShow) => {
+    const { show } = tvShowItem;
     return (
         <div className="summary-container-card">
-            <p>Rating: {rating?.average ?? ' - '}</p>
+            <p>Rating: {show?.rating?.average ?? ' - '}</p>
         </div>
     );
 };

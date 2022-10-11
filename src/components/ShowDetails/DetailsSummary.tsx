@@ -1,18 +1,19 @@
 import React from 'react';
-import { TvShowItem } from '../../custom-types';
+import { TvShow } from '../../custom-types';
 import { SummaryGenres, SummaryDescription, SummaryNetwork, SummaryDateAndTime, SummaryRating } from '../../components';
 import './show-details.css';
 
-const DetailsSummary: React.FC<TvShowItem> = (props) => {
+const DetailsSummary: React.FC<TvShow> = (tvShowItem: TvShow) => {
+    const { show } = tvShowItem;
     return (
         <div className="summary">
-            <h1 className="summary-header">{props.name}</h1>
-            <SummaryGenres {...props} />
-            <SummaryDescription {...props} />
+            <h1 className="summary-header">{show.name}</h1>
+            <SummaryGenres {...tvShowItem} />
+            <SummaryDescription {...tvShowItem} />
             <div className="summary-container">
-                <SummaryNetwork {...props} />
-                <SummaryDateAndTime {...props} />
-                <SummaryRating {...props} />
+                <SummaryNetwork {...tvShowItem} />
+                <SummaryDateAndTime {...tvShowItem} />
+                <SummaryRating {...tvShowItem} />
             </div>
         </div>
     );

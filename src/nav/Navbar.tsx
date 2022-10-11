@@ -9,6 +9,7 @@ const Navbar: React.FC = () => {
             <nav className="nav">
                 <ul className="nav-items">
                     <li className="nav-item" onClick={() => navigate('/')}>Home</li>
+                    <li className="nav-item" onClick={() => navigate('/favourites')}>Favourites</li>
                 </ul>
             </nav>
         </div>

@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { ShowImage } from '../';
 import './showlist.css';
 
-const ShowsListItem: React.FC<TvShow> = ({ show, score }) => {
+const ShowsListItem: React.FC<TvShow> = (props) => {
     const navigate = useNavigate();
 
     const onClickHandler = (id: number) => () => {
@@ -13,14 +13,14 @@ const ShowsListItem: React.FC<TvShow> = ({ show, score }) => {
 
     return (
         <li
-            key={show.id}
+            key={props.show.id}
             className="showslistitem"
-            onClick={onClickHandler(show.id)}
+            onClick={onClickHandler(props.show.id)}
         >
             <div>
-                <ShowImage show={show} size="medium" />
+                <ShowImage show={props.show} size="medium" />
             </div>
-            <span>{show.name}</span>
+            <span>{props.show.name}</span>
         </li>
     );
 };

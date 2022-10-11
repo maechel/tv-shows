@@ -1,13 +1,14 @@
 import produce from 'immer';
 import { Action } from '../actions';
 import { ActionType } from '../action-types';
-import { TvShow, TvShowItem } from '../../custom-types';
+import { TvShow } from '../../custom-types';
 
 export interface ShowsState {
     loading: boolean;
     error: string | null;
     shows: TvShow[] | null;
-    show: TvShowItem | null;
+    show: TvShow | null;
+    favourites: TvShow[];
 }
 
 const initialState: ShowsState = {
@@ -15,6 +16,7 @@ const initialState: ShowsState = {
     error: null,
     shows: null,
     show: null,
+    favourites: [],
 };
 
 export const showsReducer = produce((state: ShowsState = initialState, action: Action) => {
@@ -44,6 +46,36 @@ export const showsReducer = produce((state: ShowsState = initialState, action: A
             state.loading = false;
             return state;
         case ActionType.FETCH_SHOW_ERROR:
+            state.error = action.payload;
+            state.loading = false;
+            return state;
+        case ActionType.ADD_TO_FAVORITES_START:
+            state.error = null;
+            state.loading = true;
+            return state;
+        case ActionType.ADD_TO_FAVORITES_COMPLETE:
+            state.favourites = action.payload
+                ? state.favourites.concat(action.payload)
+                : state.favourites;
+            state.error = null;
+            state.loading = false;
+            return state;
+        case ActionType.ADD_TO_FAVORITES_ERROR:
+            state.error = action.payload;
+            state.loading = false;
+            return state;
+        case ActionType.REMOVE_FROM_FAVORITES_START:
+            state.error = null;
+            state.loading = true;
+            return state;
+        case ActionType.REMOVE_FROM_FAVORITES_COMPLETE:
+            state.favourites = state.favourites.filter((favourite) => {
+                return favourite.show.id !== action.payload;
+            });
+            state.error = null;
+            state.loading = false;
+            return state;
+        case ActionType.REMOVE_FROM_FAVORITES_ERROR:
             state.error = action.payload;
             state.loading = false;
             return state;

@@ -69,7 +69,7 @@ export const fetchAllShows = (searchInput: string) => {
                 dispatch({ type: ActionType.FETCH_ALL_COMPLETE, payload: res.data });
             }
         } catch (e: any) {
-            console.error('error');
+            console.error(e);
             dispatch({ type: ActionType.FETCH_ALL_ERROR, payload: e.message });
         }
     };
@@ -81,15 +81,51 @@ export const fetchShowById = (id: string) => {
             dispatch({ type: ActionType.FETCH_SHOW_START});
             const { data } = await getCachedShowById(id);
             if (data) {
-                dispatch({ type: ActionType.FETCH_SHOW_COMPLETE, payload: data.show });
+                dispatch({ type: ActionType.FETCH_SHOW_COMPLETE, payload: data });
             } else {
                 const res = await axios.get(`https://api.tvmaze.com/shows/${id}`);
                 dispatch({ type: ActionType.FETCH_SHOW_COMPLETE, payload: res.data });
             }
         } catch (e: any) {
-            console.error('error');
+            console.error(e);
             dispatch({ type: ActionType.FETCH_SHOW_ERROR, payload: e.message });
         }
     };
 };
+
+export const addShowToFavourites = (tvShow: TvShow) => {
+    return async (dispatch: Dispatch) => {
+        try {
+            dispatch({ type: ActionType.ADD_TO_FAVORITES_START});
+            const { data } = await axios.get(`${dbUrl}/favourites`);
+            const alreadyExists = data.find((favourite: TvShow) => favourite.show.id === tvShow.show.id);
+            if (!alreadyExists) {
+                data.push(tvShow);
+                await axios.post(`${dbUrl}/favourites`, data);
+                dispatch({ type: ActionType.ADD_TO_FAVORITES_COMPLETE, payload: tvShow });
+            } else {
+                dispatch({ type: ActionType.ADD_TO_FAVORITES_COMPLETE, payload: null });
+            }
+        } catch (e: any) {
+            console.error(e);
+            dispatch({ type: ActionType.ADD_TO_FAVORITES_ERROR, payload: e.message });
+        }
+    };
+};
+
+export const removeShowFromFavourites = (showId: number) => {
+    return async (dispatch: Dispatch) => {
+        try {
+            dispatch({ type: ActionType.REMOVE_FROM_FAVORITES_START});
+            const { data } = await axios.get(`${dbUrl}/favourites`);
+            await axios.delete(`${dbUrl}/favourites/${showId}`);
+            dispatch({ type: ActionType.REMOVE_FROM_FAVORITES_COMPLETE, payload: showId });
+        } catch (e: any) {
+            console.error(e);
+            dispatch({ type: ActionType.REMOVE_FROM_FAVORITES_ERROR, payload: e.message });
+        }
+    };
+};
+
+
 

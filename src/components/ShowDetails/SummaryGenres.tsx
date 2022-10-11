@@ -1,12 +1,13 @@
 import React from 'react';
-import { TvShowItem } from '../../custom-types';
+import { TvShow } from '../../custom-types';
 
-const SummaryGenres: React.FC<TvShowItem> = ({ genres }) => {
-    if (Array.isArray(genres)) {
+const SummaryGenres: React.FC<TvShow> = (tvShowItem: TvShow) => {
+    const { show } = tvShowItem;
+    if (Array.isArray(show.genres)) {
         return (
             <div>
                 <ul className="summary-genres">
-                    {genres.map((genre) => (
+                    {show.genres.map((genre) => (
                         <li key={genre} className="summary-genre">{genre}</li>
                     ))}
                 </ul>
