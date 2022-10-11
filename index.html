@@ -4,8 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tv-shows</title>
+
+    <script>
+      var timer;
+      var divElement, paragraphElement;
+
+      var onLoadHandler = function() {
+        clearTimeout(timer);
+        if (paragraphElement) {
+          divElement.removeChild(paragraphElement);
+        }
+      };
+
+      var onOfflineHandler = function() {
+        createOfflineMessage();
+      };
+
+      var createSlowNetworkMessage = function() {
+        paragraphElement = document.createElement('p');
+        paragraphElement.innerText = 'Slow network detected. The page may take longer to load..';
+        paragraphElement.style.color = 'gray';
+
+        divElement = document.getElementById('network');
+        divElement.appendChild(paragraphElement);
+      }
+
+      var createOfflineMessage = () => {
+        paragraphElement = document.createElement('p');
+        paragraphElement.innerText = 'No network detected. Check your network configuration.';
+        paragraphElement.style.color = 'gray';
+
+        divElement = document.getElementById('network');
+        divElement.appendChild(paragraphElement);
+      };
+
+      timer = setTimeout(() => {
+        createSlowNetworkMessage();
+      }, 8000);
+
+      window.addEventListener('load', onLoadHandler);
+      window.addEventListener('offline', onOfflineHandler);
+
+      window.addEventListener('unload', function() {
+        window.removeEventListener('load',onLoadHandler);
+        window.removeEventListener('offline',onOfflineHandler);
+      });
+    </script>
   </head>
   <body>
+    <div id="network"></div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
