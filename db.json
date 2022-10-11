@@ -1,0 +1,1814 @@
+{
+  "searches": {
+    "action": [
+      {
+        "score": 0.90173143,
+        "show": {
+          "id": 15046,
+          "url": "https://www.tvmaze.com/shows/15046/action",
+          "name": "Action",
+          "type": "Scripted",
+          "language": "English",
+          "genres": [
+            "Comedy"
+          ],
+          "status": "Ended",
+          "runtime": 30,
+          "averageRuntime": 30,
+          "premiered": "1999-09-16",
+          "ended": "1999-12-02",
+          "officialSite": null,
+          "schedule": {
+            "time": "21:00",
+            "days": [
+              "Thursday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 82,
+          "network": {
+            "id": 4,
+            "name": "FOX",
+            "country": {
+              "name": "United States",
+              "code": "US",
+              "timezone": "America/New_York"
+            },
+            "officialSite": "https://www.fox.com/"
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": 2486,
+            "thetvdb": 77943,
+            "imdb": "tt0206467"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/51/128054.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/51/128054.jpg"
+          },
+          "summary": "<p><b>Action</b> was a politically incorrect show that was rude, sexist, homophobic... and hilarious. Peter Dragon is a movie producer. His latest film has tanked and he is struggling. He decides that his next movie has to be the greatest action film he has ever made. His company buys the wrong script and Dragon's rage begins. He sets out to get the right movie and create the best action film ever.</p>",
+          "updated": 1627387630,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/15046"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/684048"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.87457913,
+        "show": {
+          "id": 40995,
+          "url": "https://www.tvmaze.com/shows/40995/action",
+          "name": "Action",
+          "type": "Documentary",
+          "language": "English",
+          "genres": [
+            "Sports",
+            "Legal"
+          ],
+          "status": "Ended",
+          "runtime": 60,
+          "averageRuntime": 60,
+          "premiered": "2019-03-24",
+          "ended": "2019-04-14",
+          "officialSite": "https://www.sho.com/action",
+          "schedule": {
+            "time": "20:00",
+            "days": [
+              "Sunday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 47,
+          "network": {
+            "id": 9,
+            "name": "Showtime",
+            "country": {
+              "name": "United States",
+              "code": "US",
+              "timezone": "America/New_York"
+            },
+            "officialSite": "https://www.sho.com/"
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": 361190,
+            "imdb": "tt9776008"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/188/470746.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/188/470746.jpg"
+          },
+          "summary": "<p><b>Action</b> chronicles the lives of professional gamblers, bookies and oddsmakers throughout the 2018 NFL season following the Supreme Court decision to lift a ban on sports betting. The series will culminate with the biggest gambling day of the year, Super Bowl Sunday. The character-driven narrative delivers intimate access to a diverse cross-section of authentic and sometimes garrulous subjects within the sports gaming community, documenting the effects of legalization through their prisms.</p>",
+          "updated": 1590255893,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/40995"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/1624767"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.69159335,
+        "show": {
+          "id": 28839,
+          "url": "https://www.tvmaze.com/shows/28839/action-team",
+          "name": "Action Team",
+          "type": "Scripted",
+          "language": "English",
+          "genres": [
+            "Comedy",
+            "Action",
+            "Thriller"
+          ],
+          "status": "Ended",
+          "runtime": 30,
+          "averageRuntime": 33,
+          "premiered": "2018-03-05",
+          "ended": "2018-04-02",
+          "officialSite": "https://www.itv.com/presscentre/ep1week10/action-team",
+          "schedule": {
+            "time": "22:00",
+            "days": [
+              "Monday"
+            ]
+          },
+          "rating": {
+            "average": 3.2
+          },
+          "weight": 77,
+          "network": {
+            "id": 54,
+            "name": "ITV2",
+            "country": {
+              "name": "United Kingdom",
+              "code": "GB",
+              "timezone": "Europe/London"
+            },
+            "officialSite": "https://www.itv.com/hub/itv2"
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": 343669,
+            "imdb": "tt8096690"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/146/367368.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/146/367368.jpg"
+          },
+          "summary": "<p>Spoof spy action-thriller series following the exploits of a top-secret team of special agents.</p>",
+          "updated": 1574298539,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/28839"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/1430226"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.6626462,
+        "show": {
+          "id": 7462,
+          "url": "https://www.tvmaze.com/shows/7462/action-man",
+          "name": "Action Man",
+          "type": "Animation",
+          "language": "English",
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "status": "Ended",
+          "runtime": 30,
+          "averageRuntime": 30,
+          "premiered": "1995-09-23",
+          "ended": "2001-11-06",
+          "officialSite": null,
+          "schedule": {
+            "time": "",
+            "days": [
+              "Saturday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 44,
+          "network": {
+            "id": 72,
+            "name": "Syndication",
+            "country": {
+              "name": "United States",
+              "code": "US",
+              "timezone": "America/New_York"
+            },
+            "officialSite": null
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": 77587,
+            "imdb": "tt0147743"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/27/68601.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/27/68601.jpg"
+          },
+          "summary": "<p>The adventures of <b>Action Man</b> and his friends in the fight against Doctor X.</p>",
+          "updated": 1627392965,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/7462"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/422612"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.6560534,
+        "show": {
+          "id": 35875,
+          "url": "https://www.tvmaze.com/shows/35875/phoo-action",
+          "name": "Phoo Action",
+          "type": "Scripted",
+          "language": "English",
+          "genres": [
+            "Drama"
+          ],
+          "status": "Ended",
+          "runtime": 60,
+          "averageRuntime": 60,
+          "premiered": "2008-02-12",
+          "ended": "2008-02-12",
+          "officialSite": "http://www.bbc.co.uk/programmes/b008yts6",
+          "schedule": {
+            "time": "21:00",
+            "days": [
+              "Tuesday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 36,
+          "network": {
+            "id": 49,
+            "name": "BBC Three",
+            "country": {
+              "name": "United Kingdom",
+              "code": "GB",
+              "timezone": "Europe/London"
+            },
+            "officialSite": "https://www.bbc.co.uk/bbcthree"
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": 103761,
+            "imdb": null
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/151/379927.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/151/379927.jpg"
+          },
+          "summary": "<p>Drama, based on Jamie Hewlett's comic strip Get the Freebies, which follows the high-kicking, high-action exploits of Buddhist Kung-Fu law enforcement officer Terry Phoo and feisty teen-rebel turned super-hero Whitey Action, who form an unlikely but effective crime-fighting team taking on Britain's super-vile, super-famous mutated criminals, The Freebies.</p>",
+          "updated": 1577174669,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/35875"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/1441621"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.6473368,
+        "show": {
+          "id": 7463,
+          "url": "https://www.tvmaze.com/shows/7463/action-man",
+          "name": "Action Man",
+          "type": "Animation",
+          "language": "English",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Sports"
+          ],
+          "status": "Ended",
+          "runtime": 30,
+          "averageRuntime": 30,
+          "premiered": "2000-05-08",
+          "ended": "2001-08-20",
+          "officialSite": null,
+          "schedule": {
+            "time": "",
+            "days": []
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 34,
+          "network": {
+            "id": 4,
+            "name": "FOX",
+            "country": {
+              "name": "United States",
+              "code": "US",
+              "timezone": "America/New_York"
+            },
+            "officialSite": "https://www.fox.com/"
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": 170641,
+            "imdb": "tt0250133"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/75/189190.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/75/189190.jpg"
+          },
+          "summary": "<p>An extreme sports competitor uses his ability to instantly plan and perform death defying stunts to fight evil.</p>",
+          "updated": 1627393212,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/7463"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/1724938"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.6466263,
+        "show": {
+          "id": 62535,
+          "url": "https://www.tvmaze.com/shows/62535/action-royale",
+          "name": "Action Royale",
+          "type": "Scripted",
+          "language": "English",
+          "genres": [
+            "Drama",
+            "Action"
+          ],
+          "status": "Ended",
+          "runtime": null,
+          "averageRuntime": 6,
+          "premiered": "2021-10-09",
+          "ended": "2021-10-27",
+          "officialSite": "https://story.snapchat.com/p/04e15785-47d4-4dc1-8e00-f30e09ab980f/3278921198721024",
+          "schedule": {
+            "time": "",
+            "days": []
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 33,
+          "network": null,
+          "webChannel": {
+            "id": 243,
+            "name": "Snapchat",
+            "country": null,
+            "officialSite": null
+          },
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": null,
+            "imdb": "tt14531736"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/413/1032570.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/413/1032570.jpg"
+          },
+          "summary": "<p>A teenager starts an underground esports gambling ring to pay off his father's debts, but he and his best friend soon find themselves in over their heads in a dangerous high-stakes world.</p>",
+          "updated": 1655396895,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/62535"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/2347368"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.6361905,
+        "show": {
+          "id": 9943,
+          "url": "https://www.tvmaze.com/shows/9943/action-sports",
+          "name": "Action Sports",
+          "type": "Sports",
+          "language": "English",
+          "genres": [
+            "Action"
+          ],
+          "status": "Ended",
+          "runtime": 60,
+          "averageRuntime": 86,
+          "premiered": "2005-06-10",
+          "ended": "2017-09-10",
+          "officialSite": "http://www.allisports.com/",
+          "schedule": {
+            "time": "14:00",
+            "days": [
+              "Sunday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 29,
+          "network": {
+            "id": 1,
+            "name": "NBC",
+            "country": {
+              "name": "United States",
+              "code": "US",
+              "timezone": "America/New_York"
+            },
+            "officialSite": "https://www.nbc.com/"
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": null,
+            "imdb": null
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/34/85431.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/34/85431.jpg"
+          },
+          "summary": "<p><b>Action Sports</b> covers the unusual sports that other sports shows don't cover such as skateboarding, snowboarding and BMX racing.</p>",
+          "updated": 1631020039,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/9943"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/1262279"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.6307385,
+        "show": {
+          "id": 59807,
+          "url": "https://www.tvmaze.com/shows/59807/action-pack",
+          "name": "Action Pack",
+          "type": "Animation",
+          "language": "English",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Children"
+          ],
+          "status": "To Be Determined",
+          "runtime": null,
+          "averageRuntime": 22,
+          "premiered": "2022-01-03",
+          "ended": null,
+          "officialSite": "https://www.netflix.com/title/80993597",
+          "schedule": {
+            "time": "",
+            "days": []
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 26,
+          "network": null,
+          "webChannel": {
+            "id": 1,
+            "name": "Netflix",
+            "country": null,
+            "officialSite": "https://www.netflix.com/"
+          },
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": 413642,
+            "imdb": "tt15527308"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/388/970173.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/388/970173.jpg"
+          },
+          "summary": "<p>With hearts, smarts and superpowers, the heroic kids of the Action Academy work together to battle the baddies - and even bring out the good in them!.</p>",
+          "updated": 1662487159,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/59807"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/2342039"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.6186813,
+        "show": {
+          "id": 23481,
+          "url": "https://www.tvmaze.com/shows/23481/action-zone",
+          "name": "Action Zone",
+          "type": "News",
+          "language": "English",
+          "genres": [],
+          "status": "Ended",
+          "runtime": 30,
+          "averageRuntime": 30,
+          "premiered": "2017-01-05",
+          "ended": "2017-01-05",
+          "officialSite": null,
+          "schedule": {
+            "time": "18:30",
+            "days": [
+              "Thursday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 21,
+          "network": {
+            "id": 586,
+            "name": "ShowBiz",
+            "country": {
+              "name": "United Kingdom",
+              "code": "GB",
+              "timezone": "Europe/London"
+            },
+            "officialSite": null
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": null,
+            "imdb": null
+          },
+          "image": null,
+          "summary": "<p>Hollywood babes, top action heroes, cars and stunts!</p>",
+          "updated": 1591738407,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/23481"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/1008427"
+            }
+          }
+        }
+      }
+    ],
+    "dino": [
+      {
+        "score": 0.87838477,
+        "show": {
+          "id": 16182,
+          "url": "https://www.tvmaze.com/shows/16182/dino",
+          "name": "DINO.",
+          "type": "Talk Show",
+          "language": "Dutch",
+          "genres": [
+            "Comedy"
+          ],
+          "status": "Running",
+          "runtime": 60,
+          "averageRuntime": 60,
+          "premiered": "2015-11-12",
+          "ended": null,
+          "officialSite": "http://www.rtl.nl/dino/#!/",
+          "schedule": {
+            "time": "21:30",
+            "days": [
+              "Thursday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 51,
+          "network": {
+            "id": 373,
+            "name": "RTL5",
+            "country": {
+              "name": "Netherlands",
+              "code": "NL",
+              "timezone": "Europe/Amsterdam"
+            },
+            "officialSite": null
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": null,
+            "imdb": null
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/57/142776.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/57/142776.jpg"
+          },
+          "summary": "<p>Late nightshow in which Jandino is doing his best to get to know everything. Interaction with famous guests and the audience, sketches and music are playing an important rol. Everything combined with lots of humour and famous characters of course!</p>",
+          "updated": 1607234510,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/16182"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/817587"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.6851249,
+        "show": {
+          "id": 52684,
+          "url": "https://www.tvmaze.com/shows/52684/dino-ranch",
+          "name": "Dino Ranch",
+          "type": "Animation",
+          "language": "English",
+          "genres": [
+            "Adventure",
+            "Children"
+          ],
+          "status": "Running",
+          "runtime": 12,
+          "averageRuntime": 12,
+          "premiered": "2021-01-18",
+          "ended": null,
+          "officialSite": "https://disneynow.com/shows/dino-ranch",
+          "schedule": {
+            "time": "",
+            "days": [
+              "Monday",
+              "Tuesday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 67,
+          "network": {
+            "id": 1039,
+            "name": "Disney Junior",
+            "country": {
+              "name": "United States",
+              "code": "US",
+              "timezone": "America/New_York"
+            },
+            "officialSite": null
+          },
+          "webChannel": {
+            "id": 83,
+            "name": "DisneyNOW",
+            "country": {
+              "name": "United States",
+              "code": "US",
+              "timezone": "America/New_York"
+            },
+            "officialSite": null
+          },
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": null,
+            "imdb": null
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/292/732353.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/292/732353.jpg"
+          },
+          "summary": "<p><b>Dino Ranch</b> follows the action-packed adventures of the Cassidy family as they tackle life in a fantastical, \"pre-westoric\" setting where dinosaurs still roam. As the young ranchers learn the ropes, they discover the thrill of ranch life whilst navigating the great outdoors through unpredictable challenges.</p>",
+          "updated": 1640543123,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/52684"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/2243375"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.68140066,
+        "show": {
+          "id": 28302,
+          "url": "https://www.tvmaze.com/shows/28302/dino-dana",
+          "name": "Dino Dana",
+          "type": "Scripted",
+          "language": "English",
+          "genres": [
+            "Drama",
+            "Action",
+            "Adventure"
+          ],
+          "status": "Running",
+          "runtime": 22,
+          "averageRuntime": 22,
+          "premiered": "2017-05-26",
+          "ended": null,
+          "officialSite": "https://www.amazon.com/Dino-Dana-Season-1/dp/B0713QVL59",
+          "schedule": {
+            "time": "",
+            "days": [
+              "Monday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 62,
+          "network": null,
+          "webChannel": {
+            "id": 3,
+            "name": "Prime Video",
+            "country": null,
+            "officialSite": "https://www.primevideo.com"
+          },
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": 331706,
+            "imdb": "tt5200330"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/159/399537.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/159/399537.jpg"
+          },
+          "summary": "<p><b>Dino Dana </b>is a follow-up to the 2015 Emmy award-winning series Dino Dan: Trek's Adventures, Dino Dana is a preschool program that takes viewers on a whole new level of dinosaur encounters. Combining live-action with CGI animation, the series features 11 new prehistoric creatures and, for the first time, two sisters. After a chance encounter with Trek and his Dino Field Guide, Dana (Michela Luci), a \"paleontologist in training,\" begins to see dinosaurs all around her, leading to plenty of action and adventure. Every episode shares interesting dinosaur facts and applies them to kid-relatable experiences.</p>",
+          "updated": 1654435767,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/28302"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/2339756"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.6786141,
+        "show": {
+          "id": 9401,
+          "url": "https://www.tvmaze.com/shows/9401/dino-dan",
+          "name": "Dino Dan",
+          "type": "Scripted",
+          "language": "English",
+          "genres": [
+            "Children"
+          ],
+          "status": "Ended",
+          "runtime": 30,
+          "averageRuntime": 30,
+          "premiered": "2010-01-11",
+          "ended": "2017-03-09",
+          "officialSite": "http://www.nickjr.com/dino-dan/",
+          "schedule": {
+            "time": "19:00",
+            "days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 59,
+          "network": {
+            "id": 206,
+            "name": "Nick Jr.",
+            "country": {
+              "name": "United States",
+              "code": "US",
+              "timezone": "America/New_York"
+            },
+            "officialSite": null
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": 205891,
+            "imdb": "tt1447487"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/33/82640.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/33/82640.jpg"
+          },
+          "summary": "<p><b>Dino Dan</b> is a Canadian/American television series for children. It is shown on TVO Kids in Ontario, Nick Jr. in Australia and the US, and CITV in the UK. <i>Dino Dan</i> follows the adventures of a ten-year-old paleontologist-in-training, Dan Henderson, and his friends, who uncover clues about the past and secrets of the dinosaurs. The show combines live action with CGI dinosaurs.</p><p>Dan learns about dinosaurs as he conducts experiments on \"dinosaurs\" that he sees in his environment. It is unknown if they are real or the result of his active imagination, but other characters accept that Dan sees them. Some animals, such as Dan's dog, have also seen them, and in the episode \"Dino Trackers\", Dan's younger brother can also see the dinosaur tracks.</p>",
+          "updated": 1574821892,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/9401"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/1091118"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.6650071,
+        "show": {
+          "id": 48516,
+          "url": "https://www.tvmaze.com/shows/48516/dino-hunters",
+          "name": "Dino Hunters",
+          "type": "Documentary",
+          "language": "English",
+          "genres": [],
+          "status": "Running",
+          "runtime": 60,
+          "averageRuntime": 64,
+          "premiered": "2020-06-19",
+          "ended": null,
+          "officialSite": "https://www.discovery.com/shows/dino-hunters",
+          "schedule": {
+            "time": "21:00",
+            "days": [
+              "Friday"
+            ]
+          },
+          "rating": {
+            "average": 7.3
+          },
+          "weight": 45,
+          "network": {
+            "id": 66,
+            "name": "Discovery Channel",
+            "country": {
+              "name": "United States",
+              "code": "US",
+              "timezone": "America/New_York"
+            },
+            "officialSite": null
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": null,
+            "imdb": null
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/262/655443.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/262/655443.jpg"
+          },
+          "summary": "<p>Cowboys and ranchers rely on their deep knowledge of the land to search for prehistoric dinosaur fossils – from T-Rexes and Triceratops to discovering a rare and disputed dinosaur species.</p><p><br /> </p>",
+          "updated": 1631439728,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/48516"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/2161665"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.64554197,
+        "show": {
+          "id": 13380,
+          "url": "https://www.tvmaze.com/shows/13380/dino-squad",
+          "name": "Dino Squad",
+          "type": "Animation",
+          "language": "English",
+          "genres": [],
+          "status": "Ended",
+          "runtime": 24,
+          "averageRuntime": 24,
+          "premiered": "2007-11-03",
+          "ended": "2008-12-06",
+          "officialSite": null,
+          "schedule": {
+            "time": "08:00",
+            "days": [
+              "Saturday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 32,
+          "network": {
+            "id": 2,
+            "name": "CBS",
+            "country": {
+              "name": "United States",
+              "code": "US",
+              "timezone": "America/New_York"
+            },
+            "officialSite": "https://www.cbs.com/"
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": 18994,
+            "thetvdb": 109541,
+            "imdb": "tt1142473"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/46/115862.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/46/115862.jpg"
+          },
+          "summary": "<p>Five teenagers, Rodger, Max, Caruso, Fiona and Buzz, gain the power to turn into dinosaurs by getting covered in ooze on a school field trip. With the help of their mysterious science teacher, Ms. Moynihan (who is an anthropomorphic velociraptor), they learn to use their unique abilities to protect the planet from Victor Veloci.</p>",
+          "updated": 1505159240,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/13380"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/628915"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.5868371,
+        "show": {
+          "id": 19139,
+          "url": "https://www.tvmaze.com/shows/19139/dino-riders",
+          "name": "Dino-Riders",
+          "type": "Animation",
+          "language": "English",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Science-Fiction"
+          ],
+          "status": "Ended",
+          "runtime": 30,
+          "averageRuntime": 30,
+          "premiered": "1988-10-01",
+          "ended": "1988-12-31",
+          "officialSite": null,
+          "schedule": {
+            "time": "",
+            "days": []
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 28,
+          "network": {
+            "id": 72,
+            "name": "Syndication",
+            "country": {
+              "name": "United States",
+              "code": "US",
+              "timezone": "America/New_York"
+            },
+            "officialSite": null
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": 72183,
+            "imdb": "tt0094449"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/66/167099.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/66/167099.jpg"
+          },
+          "summary": "<p>To avoid destruction at the hands of the Rulons the Valorians travel through time and space to Earth 65 million years ago. The Rulons follow them to the past. The Valorians use a telepathic system called AMP to befriend the dinosaurs of that time. The Rulons enslave their dinosaurs and attack the Valorians. The battle rages on prehistoric Earth.</p>",
+          "updated": 1468183546,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/19139"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/863361"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.54200315,
+        "show": {
+          "id": 11660,
+          "url": "https://www.tvmaze.com/shows/11660/de-dino-show",
+          "name": "De Dino Show",
+          "type": "Talk Show",
+          "language": "Dutch",
+          "genres": [],
+          "status": "Ended",
+          "runtime": 35,
+          "averageRuntime": 35,
+          "premiered": "2012-02-05",
+          "ended": "2012-02-12",
+          "officialSite": "http://dinoshow.ntr.nl/",
+          "schedule": {
+            "time": "21:25",
+            "days": [
+              "Sunday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 27,
+          "network": {
+            "id": 1020,
+            "name": "NPO 3",
+            "country": {
+              "name": "Netherlands",
+              "code": "NL",
+              "timezone": "Europe/Amsterdam"
+            },
+            "officialSite": null
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": 250671,
+            "imdb": null
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/39/98398.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/39/98398.jpg"
+          },
+          "summary": null,
+          "updated": 1621195272,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/11660"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/569614"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.5351793,
+        "show": {
+          "id": 19040,
+          "url": "https://www.tvmaze.com/shows/19040/dino-hunt-canada",
+          "name": "Dino Hunt Canada",
+          "type": "Documentary",
+          "language": "English",
+          "genres": [],
+          "status": "Ended",
+          "runtime": 60,
+          "averageRuntime": 60,
+          "premiered": "2015-01-30",
+          "ended": "2015-02-20",
+          "officialSite": null,
+          "schedule": {
+            "time": "21:00",
+            "days": [
+              "Friday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 24,
+          "network": {
+            "id": 118,
+            "name": "History",
+            "country": {
+              "name": "Canada",
+              "code": "CA",
+              "timezone": "America/Halifax"
+            },
+            "officialSite": null
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": 290951,
+            "imdb": null
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/66/165036.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/66/165036.jpg"
+          },
+          "summary": "<p>The series tells the story of eight dinosaur digs across Canada, revealing its wealth of dinosaur fossils and providing a unique glimpse of the birth and death of the largest beasts to ever walk the Earth. The <b>Dino Hunt Canada</b> website provides Canadians with unprecedented access to the world-class palaeontology research and fieldwork happening in our own backyard. The discovery of a new, unnamed horned dinosaur species within the television series has created a unique opportunity to follow this dinosaur's journey starting from the ground in Alberta, through scientific study and restoration via live feeds and videos, all the way to its eventual reconstruction and public display at The Royal Ontario Museum (ROM). In the exciting culmination of the new dinosaur's journey, Canadians will be able to help nickname the new dinosaur, ask questions of the experts from the show, and learn more...</p>",
+          "updated": 1505078791,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/19040"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/859513"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.53350925,
+        "show": {
+          "id": 21748,
+          "url": "https://www.tvmaze.com/shows/21748/super-dino-boys",
+          "name": "Super Dino Boys",
+          "type": "Animation",
+          "language": "English",
+          "genres": [],
+          "status": "Ended",
+          "runtime": 2,
+          "averageRuntime": 2,
+          "premiered": "2015-04-15",
+          "ended": "2015-05-05",
+          "officialSite": "http://www.adultswim.com/videos/promos/paul-robertson-super-dino-boys/",
+          "schedule": {
+            "time": "",
+            "days": []
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 23,
+          "network": {
+            "id": 10,
+            "name": "Adult Swim",
+            "country": {
+              "name": "United States",
+              "code": "US",
+              "timezone": "America/New_York"
+            },
+            "officialSite": null
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": null,
+            "imdb": null
+          },
+          "image": null,
+          "summary": "<p>This series of Adult Swim segways by Paul Robertson plays out like the greatest 16-bit console game ever, with brilliant character design that will have you grinning ear to ear, and wishing it were playable.</p>",
+          "updated": 1498334645,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/21748"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/956954"
+            }
+          }
+        }
+      }
+    ],
+    "this is the way": [],
+    "days of": [
+      {
+        "score": 0.9173081,
+        "show": {
+          "id": 50909,
+          "url": "https://www.tvmaze.com/shows/50909/days-of-hope",
+          "name": "Days of Hope",
+          "type": "Scripted",
+          "language": "English",
+          "genres": [
+            "Drama",
+            "Family",
+            "War"
+          ],
+          "status": "Ended",
+          "runtime": 135,
+          "averageRuntime": 103,
+          "premiered": "1975-09-11",
+          "ended": "1975-10-02",
+          "officialSite": "http://www.bbc.co.uk/programmes/p00vbwr8",
+          "schedule": {
+            "time": "21:25",
+            "days": [
+              "Thursday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 16,
+          "network": {
+            "id": 12,
+            "name": "BBC One",
+            "country": {
+              "name": "United Kingdom",
+              "code": "GB",
+              "timezone": "Europe/London"
+            },
+            "officialSite": "https://www.bbc.co.uk/bbcone"
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": 320873,
+            "imdb": "tt0150282"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/276/690639.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/276/690639.jpg"
+          },
+          "summary": "<p>The series deals with the lives of a working-class family from the turmoils of the First World War in 1916 to the General Strike in 1926.</p>",
+          "updated": 1601722419,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/50909"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/1942482"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.9080106,
+        "show": {
+          "id": 812,
+          "url": "https://www.tvmaze.com/shows/812/days-of-our-lives",
+          "name": "Days of Our Lives",
+          "type": "Scripted",
+          "language": "English",
+          "genres": [
+            "Drama",
+            "Family",
+            "Romance"
+          ],
+          "status": "Running",
+          "runtime": 60,
+          "averageRuntime": 60,
+          "premiered": "1965-11-08",
+          "ended": null,
+          "officialSite": "http://www.nbc.com/days-of-our-lives",
+          "schedule": {
+            "time": "13:00",
+            "days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ]
+          },
+          "rating": {
+            "average": 7.2
+          },
+          "weight": 96,
+          "network": null,
+          "webChannel": {
+            "id": 347,
+            "name": "Peacock",
+            "country": {
+              "name": "United States",
+              "code": "US",
+              "timezone": "America/New_York"
+            },
+            "officialSite": "https://www.peacocktv.com/"
+          },
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": 3256,
+            "thetvdb": 70366,
+            "imdb": "tt0058796"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/87/218576.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/87/218576.jpg"
+          },
+          "summary": "<p><b>Days of our Lives</b> is set in the fictitious Midwestern town of Salem. The core families are the Bradys, the Hortons and the DiMeras, and the multi-layered storylines involve elements of romance, adventure, mystery, comedy and drama.</p><p>Beginning on September 12, 2022, DAYS became exclusive to streaming on Peacock.</p>",
+          "updated": 1665358536,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/812"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/2404181"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.8916632,
+        "show": {
+          "id": 44276,
+          "url": "https://www.tvmaze.com/shows/44276/7-days-of-romance",
+          "name": "7 Days of Romance",
+          "type": "Scripted",
+          "language": "Korean",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "status": "Ended",
+          "runtime": null,
+          "averageRuntime": 15,
+          "premiered": "2019-10-08",
+          "ended": "2021-01-20",
+          "officialSite": null,
+          "schedule": {
+            "time": "",
+            "days": [
+              "Tuesday",
+              "Wednesday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 66,
+          "network": null,
+          "webChannel": {
+            "id": 380,
+            "name": "Seezn",
+            "country": {
+              "name": "Korea, Republic of",
+              "code": "KR",
+              "timezone": "Asia/Seoul"
+            },
+            "officialSite": "https://www.seezntv.com/"
+          },
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": 370873,
+            "imdb": "tt13423446"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/290/727378.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/290/727378.jpg"
+          },
+          "summary": "<p>Da Eun works part-time and Kim Byul is an idol in her 5th years since debut. These two girls who look alike decide to change each other's lives just for 7 days. It tells the romantic encounters of these 2 girls.</p>",
+          "updated": 1650033745,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/44276"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/1993665"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.88959265,
+        "show": {
+          "id": 9116,
+          "url": "https://www.tvmaze.com/shows/9116/7-days-of-sex",
+          "name": "7 Days of Sex",
+          "type": "Talk Show",
+          "language": "English",
+          "genres": [
+            "Romance"
+          ],
+          "status": "Ended",
+          "runtime": 60,
+          "averageRuntime": 60,
+          "premiered": "2012-04-26",
+          "ended": "2012-06-28",
+          "officialSite": null,
+          "schedule": {
+            "time": "22:00",
+            "days": [
+              "Thursday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 63,
+          "network": {
+            "id": 18,
+            "name": "Lifetime",
+            "country": {
+              "name": "United States",
+              "code": "US",
+              "timezone": "America/New_York"
+            },
+            "officialSite": null
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": 31522,
+            "thetvdb": 258790,
+            "imdb": "tt2363016"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/346/865197.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/346/865197.jpg"
+          },
+          "summary": "<p>What do women really want when it comes to sex? As a new generation of women talk openly about sex, marriage and relationships, Lifetime is at the center of this cultural conversation with the all-new reality series <b>7 Days of Sex</b>. Challenging couples to have sex for one week straight with the hope of saving their marriage.</p>",
+          "updated": 1632927191,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/9116"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/493662"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.8883496,
+        "show": {
+          "id": 13804,
+          "url": "https://www.tvmaze.com/shows/13804/the-last-days-of",
+          "name": "The Last Days of...",
+          "type": "Documentary",
+          "language": "English",
+          "genres": [
+            "History"
+          ],
+          "status": "Ended",
+          "runtime": 60,
+          "averageRuntime": 60,
+          "premiered": "2015-04-09",
+          "ended": "2015-05-21",
+          "officialSite": "http://www.channel5.com/show/the-last-days-of",
+          "schedule": {
+            "time": "20:00",
+            "days": [
+              "Thursday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 62,
+          "network": {
+            "id": 135,
+            "name": "Channel 5",
+            "country": {
+              "name": "United Kingdom",
+              "code": "GB",
+              "timezone": "Europe/London"
+            },
+            "officialSite": "https://www.channel5.com/"
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": 294322,
+            "imdb": "tt4658380"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/47/118636.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/47/118636.jpg"
+          },
+          "summary": "<p>The lives and deaths of the heroes and villains who have shaped our world. History is peppered with men and women who changed the world, only to become more controversial in death than they were in life. <b>The Last Days of...</b> examines six giants of history who suffered bloody and brutal deaths, retelling their stories, which are packed with unexpected twists and turns. Each episode features a panel of writers, thinkers and historians who set about exploring the downfall and legacy of these characters. This is history as it should be - compelling, dramatic and highly contested. It makes us question everything we thought we knew about the lives and deaths of the heroes and villains who have shaped our world.</p>",
+          "updated": 1528425650,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/13804"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/637335"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.87457913,
+        "show": {
+          "id": 53522,
+          "url": "https://www.tvmaze.com/shows/53522/nostradamus-end-of-days",
+          "name": "Nostradamus: End of Days",
+          "type": "Documentary",
+          "language": "English",
+          "genres": [
+            "History",
+            "Supernatural"
+          ],
+          "status": "Running",
+          "runtime": 60,
+          "averageRuntime": 60,
+          "premiered": "2021-02-16",
+          "ended": null,
+          "officialSite": "https://www.discoveryplus.co.uk/show/nostradamus-end-of-days",
+          "schedule": {
+            "time": "",
+            "days": [
+              "Tuesday"
+            ]
+          },
+          "rating": {
+            "average": 4.4
+          },
+          "weight": 47,
+          "network": null,
+          "webChannel": {
+            "id": 173,
+            "name": "discovery+",
+            "country": null,
+            "officialSite": "https://www.discoveryplus.com/"
+          },
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": null,
+            "imdb": null
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/296/741129.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/296/741129.jpg"
+          },
+          "summary": "<p>This all-new eight-episode series reveals exactly how the world will end, and what will be behind it, as predicted by history's greatest prophet, Nostradamus. Combining the infamous seer's ancient words with paintings from a mysterious lost book bearing his name, the series decodes new prophecies and causes of the world's demise. Nostradamus saw the impending apocalypse 500 years ago, and now it's up to experts to reveal the terrifying truth his visions can prepare us for. These groundbreaking interpretations uncover the destruction soon to be inflicted upon us by earthquakes, floods, fire, nuclear war, disease, asteroid strikes and more. Are you prepared?</p>",
+          "updated": 1621103069,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/53522"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/2048113"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.85097885,
+        "show": {
+          "id": 4332,
+          "url": "https://www.tvmaze.com/shows/4332/100-days-of-summer",
+          "name": "100 Days of Summer",
+          "type": "Reality",
+          "language": "English",
+          "genres": [
+            "Drama"
+          ],
+          "status": "Ended",
+          "runtime": 60,
+          "averageRuntime": 60,
+          "premiered": "2014-01-07",
+          "ended": "2014-02-26",
+          "officialSite": "http://www.bravotv.com/100-days-of-summer",
+          "schedule": {
+            "time": "22:00",
+            "days": [
+              "Tuesday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 32,
+          "network": {
+            "id": 52,
+            "name": "Bravo",
+            "country": {
+              "name": "United States",
+              "code": "US",
+              "timezone": "America/New_York"
+            },
+            "officialSite": null
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": 35269,
+            "thetvdb": 275431,
+            "imdb": "tt2817214"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/339/849995.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/339/849995.jpg"
+          },
+          "summary": "<p><b>100 Days of Summer </b>chronicles a group of young, successful and driven Chicagoans as they navigate the ups and downs of their personal, professional, and social lives in the Windy City over one intense summer.</p><p>Hooked into Chi-Town's hottest industries, these nightlife impresarios, fashionistas, real estate moguls and entrepreneurs include Vincent Anzalone, Ray Austin, Tara Clack, Phillips Demming, Jay Michael and Pascale Wellin. They all work hard in business, play hard in life and attempt to navigate the sometimes murky waters that fall in between. In desperate need of relief from Chicago's long-lasting winters, these go-getters only have a scant 100 days to accomplish the lofty personal and professional goals they set for themselves. Some will succeed and some will fail, but they all will be changed forever.</p>",
+          "updated": 1626258537,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/4332"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/282695"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.84160835,
+        "show": {
+          "id": 28411,
+          "url": "https://www.tvmaze.com/shows/28411/days-of-delight",
+          "name": "Days of Delight",
+          "type": "Scripted",
+          "language": "Korean",
+          "genres": [
+            "Family",
+            "Romance"
+          ],
+          "status": "Ended",
+          "runtime": 35,
+          "averageRuntime": 35,
+          "premiered": "1999-10-11",
+          "ended": "2000-04-21",
+          "officialSite": "http://www.imbc.com/drama/happy/html/home.html",
+          "schedule": {
+            "time": "20:25",
+            "days": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 3,
+          "network": {
+            "id": 166,
+            "name": "MBC",
+            "country": {
+              "name": "Korea, Republic of",
+              "code": "KR",
+              "timezone": "Asia/Seoul"
+            },
+            "officialSite": null
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": null,
+            "imdb": null
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/113/282682.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/113/282682.jpg"
+          },
+          "summary": null,
+          "updated": 1495481460,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/28411"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/1180400"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.83429074,
+        "show": {
+          "id": 17746,
+          "url": "https://www.tvmaze.com/shows/17746/90-days-of-love",
+          "name": "90 Days of Love",
+          "type": "Scripted",
+          "language": "Korean",
+          "genres": [
+            "Drama",
+            "Romance"
+          ],
+          "status": "Ended",
+          "runtime": 65,
+          "averageRuntime": 65,
+          "premiered": "2006-11-15",
+          "ended": "2007-01-04",
+          "officialSite": "http://www.imbc.com/broad/tv/drama/90days/",
+          "schedule": {
+            "time": "21:55",
+            "days": [
+              "Wednesday",
+              "Thursday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 24,
+          "network": {
+            "id": 166,
+            "name": "MBC",
+            "country": {
+              "name": "Korea, Republic of",
+              "code": "KR",
+              "timezone": "Asia/Seoul"
+            },
+            "officialSite": null
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": 261461,
+            "imdb": "tt0977891"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/59/149405.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/59/149405.jpg"
+          },
+          "summary": "<p>Hyun Ji Seok is at his peak of his life and married to Park Jung Ran, but he is fated to leave this earth in just 90 days. He promises himself to spend his remaining 90 days with someone he truely loves. When Ji Seok bumps into Mi Yeon, he knows she is his true love. But what he didn't know is that she is his first cousin. Now desperately pleading themselves for 90 days in which to love each other for the last time on earth. Is it possible for them to overcome the harsh realities of society with their love?</p>",
+          "updated": 1619789528,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/17746"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/810194"
+            }
+          }
+        }
+      },
+      {
+        "score": 0.82970804,
+        "show": {
+          "id": 6288,
+          "url": "https://www.tvmaze.com/shows/6288/7-days-of-sport",
+          "name": "7 Days of Sport",
+          "type": "Panel Show",
+          "language": "English",
+          "genres": [
+            "Comedy",
+            "Sports"
+          ],
+          "status": "Ended",
+          "runtime": 30,
+          "averageRuntime": 30,
+          "premiered": "2015-09-29",
+          "ended": "2015-11-03",
+          "officialSite": "http://www.tv3.co.nz/Shows/7DaysOfSport.aspx",
+          "schedule": {
+            "time": "21:30",
+            "days": [
+              "Tuesday"
+            ]
+          },
+          "rating": {
+            "average": null
+          },
+          "weight": 22,
+          "network": {
+            "id": 292,
+            "name": "Three",
+            "country": {
+              "name": "New Zealand",
+              "code": "NZ",
+              "timezone": "Pacific/Auckland"
+            },
+            "officialSite": null
+          },
+          "webChannel": null,
+          "dvdCountry": null,
+          "externals": {
+            "tvrage": null,
+            "thetvdb": 301896,
+            "imdb": "tt5164118"
+          },
+          "image": {
+            "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/64/161618.jpg",
+            "original": "https://static.tvmaze.com/uploads/images/original_untouched/64/161618.jpg"
+          },
+          "summary": "<p>Every week a different famous sporting personality will lead and adjudicate <b>7 Days of Sport</b> while a rotating roster of our sportiest and wittiest comedians will captain: South African rugby &amp; cricket fan Urzila Carlson, local rugby &amp; cricket man Ben Hurley, and mad rugby league and general sporting enthusiast, Dai Henwood.</p>",
+          "updated": 1650578959,
+          "_links": {
+            "self": {
+              "href": "https://api.tvmaze.com/shows/6288"
+            },
+            "previousepisode": {
+              "href": "https://api.tvmaze.com/episodes/638725"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "favourites": []
+}
