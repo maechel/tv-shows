@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'main main main main main main';
+    gap: 2px;
+    padding: 10px;
+}
+
+.header {
+    grid-area: header;
+    min-height: 40px;
+    top: 0;
+    position: sticky;
+    margin-bottom: 30px;
+}
+
+.header-items {
+    display: flex;
+}

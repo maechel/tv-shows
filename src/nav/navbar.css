@@ -1,0 +1,22 @@
+.nav {
+    margin: .4rem;
+    padding: .4rem;
+}
+
+.nav-items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-item {
+    list-style-type: none;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-item:hover {
+    list-style-type: none;
+    border-bottom: 2px solid rgba(68, 68, 68, .3);
+}
