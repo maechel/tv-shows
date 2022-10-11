@@ -1,0 +1,27 @@
+
+.searchInput {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchInput label {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.searchInput input {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    outline: none;
+    text-decoration: none;
+    border: 2px solid #eee;
+    border-radius: 4px;
+    font-size: 1.8rem;
+}
+
+.searchInput input:focus {
+    border: 2px solid #aaa;
+}
