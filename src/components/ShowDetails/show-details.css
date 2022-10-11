@@ -63,11 +63,11 @@
 
 @media screen and (max-width: 600px) {
     .details-container {
-        display: grid;
         grid-template-areas:
         'image'
         'summary';
-        gap: 3rem;
+        margin-top: 1.4rem;
+        padding: 1rem 2rem;
     }
 
     .summary {
@@ -79,14 +79,11 @@
     }
 
     .details-image {
-        grid-area: image;
         margin: 0 auto;
     }
 
     .summary-header {
         width: 100%;
-        font-size: 4rem;
-        margin-bottom: 2rem;
         text-align: center;
     }
 
@@ -96,9 +93,6 @@
         flex-flow: row wrap;
         justify-content: flex-start;
         align-items: center;
-        color: #eee;
-        list-style-type: none;
-        gap: 0.8rem;
     }
 
     .summary-container {
@@ -107,9 +101,5 @@
         flex-flow: column wrap;
         justify-content: space-around;
         align-items: baseline;
-    }
-
-    .summary-container-card {
-        padding: 5px 0;
     }
 }
