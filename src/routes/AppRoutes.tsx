@@ -1,13 +1,12 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { HomePage } from '../pages';
+import { HomePage, DetailsPage } from '../pages';
 
 const AppRoutes = () => (
-    <>
-        <Routes>
-            <Route index element={<HomePage />} />
-        </Routes>
-    </>
+    <Routes>
+        <Route index element={<HomePage />} />
+        <Route path="/tv-shows/:id" element={<DetailsPage />} />
+    </Routes>
 );
 
 export default AppRoutes;
