@@ -4,6 +4,7 @@ import './navbar.css';
 
 const Navbar: React.FC = () => {
     const navigate = useNavigate();
+
     return (
         <div className="header">
             <nav className="nav">

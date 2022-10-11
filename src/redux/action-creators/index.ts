@@ -131,7 +131,6 @@ export const addShowToFavourites = (tvShow: TvShow) => {
 export const removeShowFromFavourites = (showId: number) => {
     return async (dispatch: Dispatch) => {
         try {
-            console.log({ showId });
             dispatch({ type: ActionType.REMOVE_FROM_FAVORITES_START});
             const { data } = await axios.get(`${dbUrl}/favourites`);
             delete data[showId];
