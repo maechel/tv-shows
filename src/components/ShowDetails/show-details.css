@@ -24,6 +24,7 @@
 }
 
 .summary-header {
+    width: 100%;
     font-size: 4rem;
     margin-bottom: 2rem;
 }
@@ -58,4 +59,57 @@
 
 .summary-container-card {
     padding: 5px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .details-container {
+        display: grid;
+        grid-template-areas:
+        'image'
+        'summary';
+        gap: 3rem;
+    }
+
+    .summary {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .details-image {
+        grid-area: image;
+        margin: 0 auto;
+    }
+
+    .summary-header {
+        width: 100%;
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .summary-genres {
+        display: flex;
+        width: 100%;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
+        color: #eee;
+        list-style-type: none;
+        gap: 0.8rem;
+    }
+
+    .summary-container {
+        display: flex;
+        width: 100%;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+
+    .summary-container-card {
+        padding: 5px 0;
+    }
 }
