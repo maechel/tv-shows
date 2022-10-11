@@ -3,6 +3,7 @@ import { Dispatch } from 'redux';
 import flatten from 'lodash/flatten';
 import { ActionType } from '../action-types';
 import { TvShow, TvShowItem } from '../../custom-types';
+import favouritesList from '../../components/ShowList/FavouritesList';
 
 const normalizeStr = (str: string) => str.trim().toLowerCase();
 const dbUrl = 'http://localhost:4000';
@@ -93,14 +94,28 @@ export const fetchShowById = (id: string) => {
     };
 };
 
+export const fetchAllFavourites = () => {
+    return async (dispatch: Dispatch) => {
+        try {
+            dispatch({ type: ActionType.FETCH_ALL_FAVOURITES_START});
+            const { data } = await axios.get(`${dbUrl}/favourites`);
+            const favourites = Object.values(data) as TvShow[];
+            dispatch({ type: ActionType.FETCH_ALL_FAVOURITES_COMPLETE, payload: favourites });
+        } catch (e: any) {
+            console.error(e);
+            dispatch({ type: ActionType.FETCH_ALL_FAVOURITES_ERROR, payload: e.message });
+        }
+    };
+};
+
 export const addShowToFavourites = (tvShow: TvShow) => {
     return async (dispatch: Dispatch) => {
         try {
             dispatch({ type: ActionType.ADD_TO_FAVORITES_START});
             const { data } = await axios.get(`${dbUrl}/favourites`);
-            const alreadyExists = data.find((favourite: TvShow) => favourite.show.id === tvShow.show.id);
-            if (!alreadyExists) {
-                data.push(tvShow);
+
+            if (!data[tvShow.show.id]) {
+                data[tvShow.show.id] = tvShow;
                 await axios.post(`${dbUrl}/favourites`, data);
                 dispatch({ type: ActionType.ADD_TO_FAVORITES_COMPLETE, payload: tvShow });
             } else {
@@ -116,9 +131,11 @@ export const addShowToFavourites = (tvShow: TvShow) => {
 export const removeShowFromFavourites = (showId: number) => {
     return async (dispatch: Dispatch) => {
         try {
+            console.log({ showId });
             dispatch({ type: ActionType.REMOVE_FROM_FAVORITES_START});
             const { data } = await axios.get(`${dbUrl}/favourites`);
-            await axios.delete(`${dbUrl}/favourites/${showId}`);
+            delete data[showId];
+            await axios.post(`${dbUrl}/favourites`, data);
             dispatch({ type: ActionType.REMOVE_FROM_FAVORITES_COMPLETE, payload: showId });
         } catch (e: any) {
             console.error(e);

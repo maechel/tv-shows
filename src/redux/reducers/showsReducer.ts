@@ -49,9 +49,22 @@ export const showsReducer = produce((state: ShowsState = initialState, action: A
             state.error = action.payload;
             state.loading = false;
             return state;
-        case ActionType.ADD_TO_FAVORITES_START:
+        case ActionType.FETCH_ALL_FAVOURITES_START:
             state.error = null;
             state.loading = true;
+            return state;
+        case ActionType.FETCH_ALL_FAVOURITES_COMPLETE:
+            state.favourites = action.payload;
+            state.error = null;
+            state.loading = false;
+            return state;
+        case ActionType.FETCH_ALL_FAVOURITES_ERROR:
+            state.error = action.payload;
+            state.loading = false;
+            return state;
+        case ActionType.ADD_TO_FAVORITES_START:
+            state.error = null;
+            state.loading = false;
             return state;
         case ActionType.ADD_TO_FAVORITES_COMPLETE:
             state.favourites = action.payload

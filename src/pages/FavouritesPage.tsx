@@ -4,7 +4,6 @@ import { FavouritesList } from '../components';
 const FavouritesPage = () => {
     return (
         <div>
-            <p>Favorites</p>
             <FavouritesList />
         </div>
     );

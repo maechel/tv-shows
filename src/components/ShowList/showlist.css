@@ -1,5 +1,6 @@
 .showslist-container {
-    margin-top: 50px;
+    width: 80%;
+    margin: 3rem auto;
 }
 
 .showslist {
@@ -15,6 +16,8 @@
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
     gap: 10px;
     cursor: pointer;
 }
@@ -23,8 +26,45 @@
     background-color: rgba(170, 170, 170, .08);
 }
 
+.showslistitem-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
 .showslistitem-img {
     width: 60px;
     height: auto;
     object-fit: cover;
+}
+
+.showlistitem-btn {
+    color: #000;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding:0.35em 1.2em;
+    border: 0.1rem solid #fff;
+    margin: 0 0.3rem 0.3rem 0;
+    border-radius: 15px;
+}
+
+.btn-delete {
+    background-color: #fc8888;
+}
+
+.btn-delete:hover {
+    background-color: #fd6c6c;
+}
+
+.btn-add {
+    background-color: #a2fa98;
+}
+
+.btn-add:hover {
+    background-color: #78fa69;
+}
+
+.showlistitem-btn:disabled {
+    background-color: #eee;
 }

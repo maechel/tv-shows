@@ -29,6 +29,20 @@ export interface FetchShowErrorAction {
     payload: string;
 }
 
+export interface FetchAllFavouritesStartAction {
+    type: ActionType.FETCH_ALL_FAVOURITES_START;
+}
+
+export interface FetchAllFavouritesCompleteAction {
+    type: ActionType.FETCH_ALL_FAVOURITES_COMPLETE;
+    payload: TvShow[];
+}
+
+export interface FetchAllFavouritesErrorAction {
+    type: ActionType.FETCH_ALL_FAVOURITES_ERROR,
+    payload: string;
+}
+
 export interface AddToFavoritesStartAction {
     type: ActionType.ADD_TO_FAVORITES_START;
 }
@@ -64,6 +78,9 @@ export type Action =
     | FetchShowStartAction
     | FetchShowCompleteAction
     | FetchShowErrorAction
+    | FetchAllFavouritesStartAction
+    | FetchAllFavouritesCompleteAction
+    | FetchAllFavouritesErrorAction
     | AddToFavoritesStartAction
     | AddToFavoritesCompleteAction
     | AddToFavoritesErrorAction

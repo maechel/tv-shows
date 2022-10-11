@@ -1,10 +1,16 @@
-import React from 'react';
-import { useTypedSelector } from '../../hooks';
+import React, { useEffect } from 'react';
+import { useActions, useTypedSelector } from '../../hooks';
 import { ApplicationMessage, Spinner, ShowsListItem } from '../';
+import { TvShow } from '../../custom-types';
 import './showlist.css';
 
 const FavouritesList: React.FC = () => {
+    const { fetchAllFavourites } = useActions();
     const { favourites, loading, error } = useTypedSelector(({ shows }) => shows);
+
+    useEffect(() => {
+        fetchAllFavourites();
+    }, []);
 
     if (error) {
         return <ApplicationMessage
@@ -20,15 +26,15 @@ const FavouritesList: React.FC = () => {
 
     const renderShows = () => {
         if (Array.isArray(favourites) && favourites.length) {
-            return favourites.map(({ show, score }) => {
+            return favourites.map((tvShowItem: TvShow) => {
                 return (
-                    <ShowsListItem key={show.id} show={show} score={score} />
+                    <ShowsListItem key={tvShowItem.show.id} {...tvShowItem} />
                 );
             });
         } else if (Array.isArray(favourites) && favourites.length === 0) {
             return <ApplicationMessage
                 type="info"
-                msg="Nothing to see yet! Go back and add a tv-show to the list."
+                msg="Nothing to see here! Go back and add a tv-show to the list."
                 title="Information"
             />;
         }
