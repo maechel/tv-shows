@@ -2,7 +2,7 @@ import React from 'react';
 import { TvShow } from '../../custom-types';
 import { useNavigate } from 'react-router-dom';
 import './showlist.css';
-import ImageSkeleton from '../ImageSkeleton';
+import { ImageSkeleton } from '../';
 
 const ShowsListItem: React.FC<TvShow> = ({ show, score }) => {
     const navigate = useNavigate();

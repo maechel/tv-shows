@@ -46,3 +46,16 @@ export interface TvShowItem {
     schedule: Schedule,
     status: string;
 }
+
+export type ErrorMessageTypes = 'error' | 'info';
+
+export interface ErrorMessageProps {
+    type: ErrorMessageTypes;
+    title: string;
+    msg: string;
+}
+
+export interface SpinnerProps {
+    size?: 'sm' | 'normal' | 'lg';
+    color?: 'primary' | 'secondary';
+}

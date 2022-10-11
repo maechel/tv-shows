@@ -1,0 +1,30 @@
+.message-container {
+    display: flex;
+    width: 100%;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.message-header {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.message {
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+.message-error {
+    color: #f81d1d;
+    background-color: #fceded;
+}
+
+.message-info {
+    color: #1fbaf8;
+    background-color: #eef8f8;
+}
