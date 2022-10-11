@@ -1,9 +1,9 @@
 import './App.css';
-import HomePage from './pages/HomePage';
+import AppRoutes from './routes/AppRoutes';
 
 const App = () => (
     <div className="App">
-        <HomePage/>
+        <AppRoutes />
     </div>
 );
 
