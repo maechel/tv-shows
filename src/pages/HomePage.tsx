@@ -1,11 +1,11 @@
 import React from 'react';
-import { SearchInput } from '../components/SearchInput';
+import { SearchInput, ShowsList } from '../components';
 
 const HomePage = () => {
     return (
         <div>
-            <h1>Home Page</h1>
             <SearchInput />
+            <ShowsList />
         </div>
     );
 };

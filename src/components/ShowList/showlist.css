@@ -1,0 +1,30 @@
+.showslist-container {
+    margin-top: 50px;
+}
+
+.showslist {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: center;
+    flex-flow: column wrap;
+    list-style-type: none;
+}
+
+.showslistitem {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.showslistitem:hover {
+    background-color: rgba(170, 170, 170, .08);
+}
+
+.showslistitem-img {
+    width: 60px;
+    height: auto;
+    object-fit: cover;
+}
