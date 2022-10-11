@@ -1,10 +1,12 @@
 import React from 'react';
 import ShowsListItem from './ShowsListItem';
 import { TvShow } from '../../custom-types';
+import { useTypedSelector } from '../../hooks';
 
-const shows: TvShow[] = [];
 
 const ShowsList: React.FC = () => {
+    const { shows, loading, error } = useTypedSelector(({ shows }) => shows);
+
     const renderShows = () => {
         if (Array.isArray(shows) && shows.length) {
             return shows.map(({ show, score }) => {
