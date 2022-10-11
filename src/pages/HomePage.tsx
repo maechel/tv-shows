@@ -3,7 +3,7 @@ import { SearchInput, ShowsList } from '../components';
 
 const HomePage = () => {
     return (
-        <div>
+        <div className="main">
             <SearchInput />
             <ShowsList />
         </div>
