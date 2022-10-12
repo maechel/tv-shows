@@ -3,7 +3,6 @@ import { Dispatch } from 'redux';
 import flatten from 'lodash/flatten';
 import { ActionType } from '../action-types';
 import { TvShow, TvShowItem } from '../../custom-types';
-import favouritesList from '../../components/ShowList/FavouritesList';
 
 const normalizeStr = (str: string) => str.trim().toLowerCase();
 const dbUrl = 'http://localhost:4000';
@@ -71,7 +70,7 @@ export const fetchAllShows = (searchInput: string) => {
             }
         } catch (e: any) {
             console.error(e);
-            dispatch({ type: ActionType.FETCH_ALL_ERROR, payload: e.message });
+            dispatch({ type: ActionType.FETCH_ALL_ERROR, payload: 'Something went wrong fetching the list of shows' });
         }
     };
 };
@@ -89,7 +88,7 @@ export const fetchShowById = (id: string) => {
             }
         } catch (e: any) {
             console.error(e);
-            dispatch({ type: ActionType.FETCH_SHOW_ERROR, payload: e.message });
+            dispatch({ type: ActionType.FETCH_SHOW_ERROR, payload: 'Something went wrong fetching information about the tv-show.' });
         }
     };
 };
@@ -103,7 +102,7 @@ export const fetchAllFavourites = () => {
             dispatch({ type: ActionType.FETCH_ALL_FAVOURITES_COMPLETE, payload: favourites });
         } catch (e: any) {
             console.error(e);
-            dispatch({ type: ActionType.FETCH_ALL_FAVOURITES_ERROR, payload: e.message });
+            dispatch({ type: ActionType.FETCH_ALL_FAVOURITES_ERROR, payload: 'Something went wrong fetching thw list of favourites.' });
         }
     };
 };
@@ -123,7 +122,7 @@ export const addShowToFavourites = (tvShow: TvShow) => {
             }
         } catch (e: any) {
             console.error(e);
-            dispatch({ type: ActionType.ADD_TO_FAVORITES_ERROR, payload: e.message });
+            dispatch({ type: ActionType.ADD_TO_FAVORITES_ERROR, payload: 'Something went wrong adding the show to favourites.' });
         }
     };
 };
@@ -138,7 +137,7 @@ export const removeShowFromFavourites = (showId: number) => {
             dispatch({ type: ActionType.REMOVE_FROM_FAVORITES_COMPLETE, payload: showId });
         } catch (e: any) {
             console.error(e);
-            dispatch({ type: ActionType.REMOVE_FROM_FAVORITES_ERROR, payload: e.message });
+            dispatch({ type: ActionType.REMOVE_FROM_FAVORITES_ERROR, payload: 'Something went wrong removing the show from favourites.' });
         }
     };
 };
