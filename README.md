@@ -4,12 +4,12 @@
 An application where you can search for tv-series. It has three views, a search and result view, a detailed view and a favourites view, where you can store your favourite tv-shows.
 
 ## Commands ##
-| Command          | Description                                                                                                                 |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| `npm run server` | Starts `json-servert on port [4000](http://localhost:4000)                                                                  |
+| Command          | Description                                                                                                                |
+|------------------|----------------------------------------------------------------------------------------------------------------------------|
+| `npm run server` | Starts `json-server` on port [4000](http://localhost:4000)                                                                  |
 | `npm run dev`    | Starts a local dev-server on port [5173](http://localhost:5173). Changes will be reflected via Hot Module Replacement (HMR) |
-| `npm run build`  | Builds the project.                                                                                                         |
-| `npm run start`  | Runs both `npm run server` and `npm run dev` concurrently.                                                                  |
+| `npm run build`  | Builds the project.                                                                                                        |
+| `npm run start`  | Runs both `npm run server` and `npm run dev` concurrently.                                                                 |
 
 
 ### Installation ###
