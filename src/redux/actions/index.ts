@@ -71,6 +71,10 @@ export interface RemoveFromFavoritesErrorAction {
     payload: string;
 }
 
+export interface clearError {
+    type: ActionType.CLEAR_ERROR,
+}
+
 export type Action =
     | FetchAllStartAction
     | FetchAllCompleteAction
@@ -86,4 +90,5 @@ export type Action =
     | AddToFavoritesErrorAction
     | RemoveFromFavoritesStartAction
     | RemoveFromFavoritesCompleteAction
-    | RemoveFromFavoritesErrorAction;
+    | RemoveFromFavoritesErrorAction
+    | clearError;

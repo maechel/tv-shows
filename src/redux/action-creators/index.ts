@@ -15,7 +15,7 @@ const getCachedShowById = async (id: string) => {
     try {
         const { data } = await axios.get(`${dbUrl}/searches`);
         const flattened = flatten(Object.values(data)) as TvShow[];
-        const found =  flattened.find((tvShow: TvShow) => tvShow.show.id.toString() === id);
+        const found = flattened.find((tvShow: TvShow) => tvShow.show.id.toString() === id);
 
         if (found) {
             return { data: found };
@@ -33,7 +33,7 @@ const getCachedShows = async (searchInput: string): Promise<CachedShowsResult> =
         const { data } = await axios.get(`${dbUrl}/searches`);
         const normalizedSearchInput = normalizeStr(searchInput);
         if (data[normalizedSearchInput]) {
-            return {  data: data[normalizedSearchInput] };
+            return { data: data[normalizedSearchInput] };
         }
 
         return { data: null };
@@ -58,7 +58,7 @@ const setCachedShows = async (searchInput: string, fetchedData: TvShow): Promise
 export const fetchAllShows = (searchInput: string) => {
     return async (dispatch: Dispatch) => {
         try {
-            dispatch({ type: ActionType.FETCH_ALL_START});
+            dispatch({ type: ActionType.FETCH_ALL_START });
             const { data } = await getCachedShows(searchInput);
 
             if (data) {
@@ -78,7 +78,7 @@ export const fetchAllShows = (searchInput: string) => {
 export const fetchShowById = (id: string) => {
     return async (dispatch: Dispatch) => {
         try {
-            dispatch({ type: ActionType.FETCH_SHOW_START});
+            dispatch({ type: ActionType.FETCH_SHOW_START });
             const { data } = await getCachedShowById(id);
             if (data) {
                 dispatch({ type: ActionType.FETCH_SHOW_COMPLETE, payload: data });
@@ -88,7 +88,10 @@ export const fetchShowById = (id: string) => {
             }
         } catch (e: any) {
             console.error(e);
-            dispatch({ type: ActionType.FETCH_SHOW_ERROR, payload: 'Something went wrong fetching information about the tv-show.' });
+            dispatch({
+                type: ActionType.FETCH_SHOW_ERROR,
+                payload: 'Something went wrong fetching information about the tv-show.',
+            });
         }
     };
 };
@@ -96,13 +99,16 @@ export const fetchShowById = (id: string) => {
 export const fetchAllFavourites = () => {
     return async (dispatch: Dispatch) => {
         try {
-            dispatch({ type: ActionType.FETCH_ALL_FAVOURITES_START});
+            dispatch({ type: ActionType.FETCH_ALL_FAVOURITES_START });
             const { data } = await axios.get(`${dbUrl}/favourites`);
             const favourites = Object.values(data) as TvShow[];
             dispatch({ type: ActionType.FETCH_ALL_FAVOURITES_COMPLETE, payload: favourites });
         } catch (e: any) {
             console.error(e);
-            dispatch({ type: ActionType.FETCH_ALL_FAVOURITES_ERROR, payload: 'Something went wrong fetching thw list of favourites.' });
+            dispatch({
+                type: ActionType.FETCH_ALL_FAVOURITES_ERROR,
+                payload: 'Something went wrong fetching thw list of favourites.',
+            });
         }
     };
 };
@@ -110,7 +116,7 @@ export const fetchAllFavourites = () => {
 export const addShowToFavourites = (tvShow: TvShow) => {
     return async (dispatch: Dispatch) => {
         try {
-            dispatch({ type: ActionType.ADD_TO_FAVORITES_START});
+            dispatch({ type: ActionType.ADD_TO_FAVORITES_START });
             const { data } = await axios.get(`${dbUrl}/favourites`);
 
             if (!data[tvShow.show.id]) {
@@ -122,7 +128,10 @@ export const addShowToFavourites = (tvShow: TvShow) => {
             }
         } catch (e: any) {
             console.error(e);
-            dispatch({ type: ActionType.ADD_TO_FAVORITES_ERROR, payload: 'Something went wrong adding the show to favourites.' });
+            dispatch({
+                type: ActionType.ADD_TO_FAVORITES_ERROR,
+                payload: 'Something went wrong adding the show to favourites.',
+            });
         }
     };
 };
@@ -130,15 +139,24 @@ export const addShowToFavourites = (tvShow: TvShow) => {
 export const removeShowFromFavourites = (showId: number) => {
     return async (dispatch: Dispatch) => {
         try {
-            dispatch({ type: ActionType.REMOVE_FROM_FAVORITES_START});
+            dispatch({ type: ActionType.REMOVE_FROM_FAVORITES_START });
             const { data } = await axios.get(`${dbUrl}/favourites`);
             delete data[showId];
             await axios.post(`${dbUrl}/favourites`, data);
             dispatch({ type: ActionType.REMOVE_FROM_FAVORITES_COMPLETE, payload: showId });
         } catch (e: any) {
             console.error(e);
-            dispatch({ type: ActionType.REMOVE_FROM_FAVORITES_ERROR, payload: 'Something went wrong removing the show from favourites.' });
+            dispatch({
+                type: ActionType.REMOVE_FROM_FAVORITES_ERROR,
+                payload: 'Something went wrong removing the show from favourites.',
+            });
         }
+    };
+};
+
+export const clearError = () => {
+    return async (dispatch: Dispatch) => {
+        dispatch({ type: ActionType.CLEAR_ERROR });
     };
 };
 

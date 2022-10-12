@@ -92,6 +92,10 @@ export const showsReducer = produce((state: ShowsState = initialState, action: A
             state.error = action.payload;
             state.loading = false;
             return state;
+        case ActionType.CLEAR_ERROR:
+            state.error = null;
+            state.loading = false;
+            return state;
         default:
             return state;
     }
