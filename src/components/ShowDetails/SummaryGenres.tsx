@@ -1,8 +1,7 @@
 import React from 'react';
 import { TvShow } from '../../custom-types';
 
-const SummaryGenres: React.FC<TvShow> = (tvShowItem: TvShow) => {
-    const { show } = tvShowItem;
+const SummaryGenres: React.FC<TvShow> = ({ show }) => {
     if (Array.isArray(show.genres)) {
         return (
             <div>
