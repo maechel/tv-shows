@@ -31,6 +31,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    margin-bottom: 0.8rem;
 }
 
 .showslistitem-img {
@@ -45,7 +46,10 @@
 
 .showlistitem-summary {
     text-align: justify;
+    max-height: 70px;
     padding: .2rem 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .showlistitem-btn {
