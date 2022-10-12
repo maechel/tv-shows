@@ -5,7 +5,7 @@ import './show-details.css';
 
 const DetailsSummary: React.FC<TvShow> = (tvShowItem: TvShow) => (
     <div className="summary">
-        <h1 className="summary-header">{tvShowItem.show.name}</h1>
+        <h1 className="summary-header">{tvShowItem?.show?.name ?? 'Title'}</h1>
         <SummaryGenres {...tvShowItem} />
         <SummaryDescription {...tvShowItem} />
         <div className="summary-container">
