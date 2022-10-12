@@ -29,7 +29,7 @@
 .showslistitem-content {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     gap: 2rem;
 }
 
@@ -37,6 +37,15 @@
     width: 60px;
     height: auto;
     object-fit: cover;
+}
+
+.showlistitem-title {
+    min-width: 10%;
+}
+
+.showlistitem-summary {
+    text-align: justify;
+    padding: .2rem 2rem;
 }
 
 .showlistitem-btn {

@@ -6,6 +6,7 @@ import { FaTimes } from 'react-icons/fa';
 import { ShowImage } from '../';
 import { useActions, useTypedSelector } from '../../hooks';
 import './showlist.css';
+import DOMPurify from 'dompurify';
 
 const ShowsListItem: React.FC<TvShow> = (props) => {
     const { pathname } = useLocation();
@@ -40,6 +41,10 @@ const ShowsListItem: React.FC<TvShow> = (props) => {
             ? <FaTimes/>
             : <MdFavoriteBorder/>;
 
+    const sanitizedData = () => ({
+        __html: DOMPurify.sanitize(props.show.summary),
+    });
+
     return (
         <li
             key={props.show.id}
@@ -48,7 +53,8 @@ const ShowsListItem: React.FC<TvShow> = (props) => {
         >
             <div className="showslistitem-content">
                 <ShowImage show={props.show} size="medium"/>
-                <span>{props.show.name}</span>
+                <span className="showlistitem-title">{props.show.name}</span>
+                <small className="showlistitem-summary" dangerouslySetInnerHTML={sanitizedData()} />
             </div>
             <div>
                 <button
